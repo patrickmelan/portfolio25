@@ -13,8 +13,6 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
-import { Separator } from "../ui/separator";
-import { div } from "framer-motion/client";
 
 const Projects = () => {
   const [filter, setFilter] = useState("All");

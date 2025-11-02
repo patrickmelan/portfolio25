@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import Image from "next/image";
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              Hello, I'm
+              Hello, I&apos;m
             </motion.p>
             <motion.h1
               className="text-5xl md:text-7xl font-bold text-white leading-tight"

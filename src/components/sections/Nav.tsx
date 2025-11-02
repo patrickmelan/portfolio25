@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 const Navbar = ({
   activeSection,
-  setActiveSection,
 }: {
   activeSection: string;
   setActiveSection: (section: string) => void;

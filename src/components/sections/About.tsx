@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Calendar, Code, Mail, GraduationCap } from "lucide-react";
+import { MapPin, Code, Mail, GraduationCap } from "lucide-react";
 
 const About = () => {
     return (
@@ -24,11 +24,11 @@ const About = () => {
               viewport={{ once: true }}
             >
               <p className="text-lg text-slate-300 leading-relaxed">
-                Hello! I'm Patrick Melan, a freshman at Drexel University passionate about businss, data science, and software development. I have a stroung foudation in languages such as TypeScript and Python, but I'm always trying to learn more and better my skills. For example, this past summer, I gained a great amount of experience working with AWS products such as S3, DynamoDB, and Athena while developing an app for a company (shown below).
+                Hello! I&apos;m Patrick Melan, a freshman at Drexel University passionate about business, data science, and software development. I have a stroung foudation in languages such as TypeScript and Python, but I&apos;m always trying to learn more and better my skills. For example, this past summer, I gained a great amount of experience working with AWS products such as S3, DynamoDB, and Athena while developing an app for a company (shown below).
               </p>
 
               <p className="text-lg text-slate-300 leading-relaxed">
-                In my time outside of school, I enjoy building web apps and exploring new technologies, but that's not my life 24/7. I am a big sports guy, but basketball is my biggest passion. I have played it, officiated it, watched it, and, most recently, become a student manager for the Drexel Women's Basketball Team, which has been an amazing experience so far.
+                In my time outside of school, I enjoy building web apps and exploring new technologies, but that&apos;s not my life 24/7. I am a big sports guy, but basketball is my biggest passion. I have played it, officiated it, watched it, and, most recently, become a student manager for the Drexel Women&apos;s Basketball Team, which has been an amazing experience so far.
               </p>
 
               <p className="text-lg text-slate-300 leading-relaxed">
@@ -87,13 +87,13 @@ const About = () => {
                   <div className="bg-slate-900 rounded-lg p-4 font-mono text-sm">
                     <div className="text-cyan-400">const me = {"{"}</div>
                     <div className="ml-4 text-slate-300">
-                      name: <span className="text-green-400">"Patrick Melan"</span>,
+                      name: <span className="text-green-400">&quot;Patrick Melan&quot;</span>,
                     </div>
                     <div className="ml-4 text-slate-300">
-                      skills: <span className="text-yellow-400">["Python", "TypeScript", "AWS"]</span>,
+                      skills: <span className="text-yellow-400">[&quot;Python&quot;, &quot;TypeScript&quot;, &quot;AWS&quot;]</span>,
                     </div>
                     <div className="ml-4 text-slate-300">
-                      passion: <span className="text-green-400">"Building awesome things"</span>
+                      passion: <span className="text-green-400">&quot;Building awesome things&quot;</span>
                     </div>
                     <div className="text-cyan-400">{"}"}</div>
                   </div>
