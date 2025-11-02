@@ -13,6 +13,8 @@ const Navbar = ({
     }
   };
 
+  //test comment
+
   return (
     <motion.nav
       initial={{ y: -100, opacity: 0 }}
