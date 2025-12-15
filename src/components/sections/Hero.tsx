@@ -1,16 +1,8 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import { Github, Linkedin } from "lucide-react";
 import Image from "next/image";
 
 const Hero = () => {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section
       id="hero"
